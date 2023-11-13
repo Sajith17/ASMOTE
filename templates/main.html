@@ -1,0 +1,99 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='main.css') }}"
+    />
+    <title>ASTE</title>
+  </head>
+  <body>
+    <h1 class="heading">ASPECT SENTIMENT TRIPLET EXTRACTION</h1>
+    <div class="main">
+      <div class="main-object-1">
+        <p class="main-object-text">Text</p>
+        <form action="#" method="post">
+          <textarea
+            class="main-object-1-text-input"
+            name="text-input"
+            id="text-input"
+            cols="30"
+            rows="10"
+          >
+{{text}}</textarea
+          >
+          <div class="main-object-1-button-container">
+            {% if not text %}
+            <input
+              type="button"
+              value="Clear"
+              onclick="clearValue()"
+              class="main-object-1-button-container-clear"
+            />
+            <input
+              type="submit"
+              value="Submit"
+              class="main-object-1-button-container-submit"
+            />
+            {% else %}
+            <input
+              type="submit"
+              value="Clear"
+              class="main-object-1-button-container-clear"
+            />
+            {% endif %}
+          </div>
+        </form>
+      </div>
+      {% if text %}
+      <div class="main-object-2">
+        <p class="main-object-text">Output</p>
+        {% if triplets %}
+        <div class="main-object-2-button-container-table-heading-container">
+          <p
+            class="main-object-2-button-container-table-heading-container-aspect"
+          >
+            ASPECT
+          </p>
+          <p
+            class="main-object-2-button-container-table-heading-container-opinion"
+          >
+            OPINION
+          </p>
+          <p
+            class="main-object-2-button-container-table-heading-container-sentiment"
+          >
+            SENTIMENT
+          </p>
+        </div>
+        <div class="main-object-2-aspect-container">
+          {% for triplet in triplets %} {% if triplet[2] == "NEG" %}
+          <div class="aspects-red">
+            <p class="aspect">{{triplet[0]}}</p>
+            <p class="opinion">{{triplet[1]}}</p>
+            <p class="sentiment-negative">Negative</p>
+          </div>
+          {% elif triplet[2] == "NEU" %}
+          <div class="aspects-yellow">
+            <p class="aspect">{{triplet[0]}}</p>
+            <p class="opinion">{{triplet[1]}}</p>
+            <p class="sentiment-negative">Neutral</p>
+          </div>
+          {% else %}
+          <div class="aspects-green">
+            <p class="aspect">{{triplet[0]}}</p>
+            <p class="opinion">{{triplet[1]}}</p>
+            <p class="sentiment-positive">Positive</p>
+          </div>
+          {% endif %} {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+      {% endif %}
+    </div>
+  </body>
+  <script src="{{ url_for('static', filename='main.js') }}"></script>
+</html>
