@@ -1,5 +1,5 @@
 from flask import Flask, render_template, url_for, request, redirect, session
-from classification import predict_triplets
+from prediction import predict_triplets
 
 app = Flask(__name__)
 app.secret_key = "0123456789"
