@@ -44,9 +44,7 @@ body {
     height: 50vh;
 }
 
-/* .main-object-2{
-    height: 328px;
-} */
+
 
 .main-object-text {
     color: gray;
@@ -59,7 +57,7 @@ body {
     border-radius: 8px;
     height: 280px;
     width: 100%;
-    font-size: 17px;
+    font-size: 23px;
     resize: none;
     padding: 10px;
     margin-bottom: 15px;
