@@ -12,3 +12,43 @@ Features I hope to implement in the future:
 
 - **Implement an attention-based model or transformer model for aspect opinion extraction to improve accuracy over named entity recognition (NER)**
 - **Manually augment sentences with negation and modifiers to handle negation and modifiers and increase accuracy over them.**
+
+## Prerequisites
+
+Ensure you have the following software installed:
+
+- Python 3.8 or higher
+- TensorFlow 2.0 or higher
+- Flask 2.0 or higher
+
+## Installation
+
+1.  **Clone the Repository:**
+    ```bash
+    git clone https://github.com/Sajith17/ASMOTE.git
+    cd your_project_directory
+    ```
+2.  **Create a Virtual Environment:**
+    ```bash
+    git clone https://github.com/Sajith17/ASMOTE.git
+    cd ASMOTE/
+    ```
+3.  **Activate the Virtual Environment:**
+    - On Windows:
+      ```bash
+      venv\Scripts\activate
+      ```
+    - On macOS/Linux:
+      ```bash
+      source venv/bin/activate
+      ```
+4.  **Install Dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+5.  **Run the Application:**
+    ```bash
+    python app.py
+    ```
+6.  **Access the Website:**
+    Open your web browser and navigate to `http://127.0.0.1:5000/` to explore the ASMOTE Flask website.
