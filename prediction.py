@@ -1,6 +1,5 @@
 import tensorflow as tf
 import numpy as np
-import pandas as pd
 import pickle
 import regex as re
 
@@ -9,7 +8,8 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.models import Model
 from tensorflow.keras.layers import Embedding, Dense, LSTM, Bidirectional, Input
 from tensorflow.keras.optimizers import Adam
-from tensorflow_addons.text.crf_wrapper import CRFModelWrapper
+
+# from tensorflow_addons.text.crf_wrapper import CRFModelWrapper
 
 T1, T2 = 71, 25
 with open("models/tokenizer.pickle", "rb") as f:
