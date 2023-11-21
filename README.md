@@ -8,6 +8,10 @@ I utilized **TensorFlow 2** for its robust deep learning capabilities, enabling 
 
 Some challenges I faced included **extracting multi-word aspects and opinions**. To address this, I employed named entity recognition. Another challenge was **ensuring valid pairings of aspect and opinion**, which I tackled by training a dedicated classifier.
 
+### Screenshots
+
+![Image 1](Screenshot1.png)
+
 Features I hope to implement in the future:
 
 - **Implement an attention-based model or transformer model for aspect opinion extraction to improve accuracy over named entity recognition (NER)**
