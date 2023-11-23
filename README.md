@@ -78,3 +78,33 @@ The accompanying images illustrate the model architectures utilized for these su
 **Sentiment Classification Model**
 
 <img src="images/image3.png" width="65%">
+
+## Results
+
+<style>
+  table {
+    margin-left: 50px;
+  }
+</style>
+
+- **Aspect And Opinion Term Extraction Model (NER)**
+
+| accuracy |     |     |     |     |     |     | 0.70 |
+| -------- | --- | --- | --- | --- | --- | --- | ---- |
+
+- **Aspect Opinion Pair Classification Model**
+
+|              | precision | recall | f1-score |
+| ------------ | --------- | ------ | -------- |
+| 0            | 0.88      | 0.94   | 0.91     |
+| 1            | 0.95      | 0.90   | 0.92     |
+| **accuracy** |           |        | **0.92** |
+
+- **Sentiment Classification Model**
+
+|              | precision | recall | f1-score |
+| ------------ | --------- | ------ | -------- |
+| 0-NEG        | 0.74      | 0.71   | 0.72     |
+| 1-NEU        | 0.35      | 0.57   | 0.43     |
+| 2-POS        | 0.92      | 0.88   | 0.90     |
+| **accuracy** |           |        | **0.82** |
