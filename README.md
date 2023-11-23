@@ -101,3 +101,15 @@ The accompanying images illustrate the model architectures utilized for these su
 | 1-NEU        | 0.35      | 0.57   | 0.43     |
 | 2-POS        | 0.92      | 0.88   | 0.90     |
 | **accuracy** |           |        | **0.82** |
+
+## Data Source
+
+**Dataset**
+
+- [SemEval-2014 Task 4](https://alt.qcri.org/semeval2014/task4/)
+- [SemEval-2015 Task 12](https://alt.qcri.org/semeval2015/task12/)
+- [SemEval-2016 Task 5](https://alt.qcri.org/semeval2016/task5/)
+
+**Embeddings**
+
+- [GloVe 6B](https://www.kaggle.com/datasets/anindya2906/glove6b)
