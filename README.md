@@ -69,12 +69,12 @@ The accompanying images illustrate the model architectures utilized for these su
 
 **Aspect And Opinion Term Extraction Model (NER)**
 
-![Image 1](images/image1.png)
+<img src="images/image1.png" width="65%">
 
 **Aspect Opinion Pair Classification Model**
 
-![Image 2](images/image2.png)
+<img src="images/image2.png" width="65%">
 
 **Sentiment Classification Model**
 
-![Image 3](images/image3.png)
+<img src="images/image3.png" width="65%">
