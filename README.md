@@ -89,8 +89,8 @@ The accompanying images illustrate the model architectures utilized for these su
 
 - **Aspect And Opinion Term Extraction Model (NER)**
 
-| accuracy |     |     |     |     |     |     | 0.70 |
-| -------- | --- | --- | --- | --- | --- | --- | ---- |
+| accuracy | 0.70 |
+| -------- | ---- |
 
 - **Aspect Opinion Pair Classification Model**
 
