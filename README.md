@@ -81,12 +81,6 @@ The accompanying images illustrate the model architectures utilized for these su
 
 ## Results
 
-<style>
-  table {
-    margin-left: 50px;
-  }
-</style>
-
 - **Aspect And Opinion Term Extraction Model (NER)**
 
 | accuracy | 0.70 |
