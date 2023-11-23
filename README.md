@@ -30,12 +30,11 @@ Ensure you have the following software installed:
 1.  **Clone the Repository:**
     ```bash
     git clone https://github.com/Sajith17/ASMOTE.git
-    cd your_project_directory
+    cd ASMOTE/
     ```
 2.  **Create a Virtual Environment:**
     ```bash
-    git clone https://github.com/Sajith17/ASMOTE.git
-    cd ASMOTE/
+    python -m venv venv
     ```
 3.  **Activate the Virtual Environment:**
     - On Windows:
