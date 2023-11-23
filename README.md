@@ -10,11 +10,11 @@ Some challenges I faced included **extracting multi-word aspects and opinions**.
 
 ### Screenshot
 
-![Image 1](Screenshot.png)
+![Screenshot](images/Screenshot.png)
 
 Features I hope to implement in the future:
 
-- **Implement an attention-based or transformer model for aspect opinion extraction to improve accuracy over named entity recognition (NER)**
+- **Implement an attention-based model or transformer model for aspect opinion extraction to improve accuracy over named entity recognition (NER)**
 - **Manually augment sentences with negation and modifiers to handle negation and modifiers and increase accuracy over them.**
 
 ## Prerequisites
@@ -56,3 +56,25 @@ Ensure you have the following software installed:
     ```
 6.  **Access the Website:**
     Open your web browser and navigate to `http://127.0.0.1:5000/` to explore the ASMOTE Flask website.
+
+## Model Architecture
+
+The Aspect Sentiment Multiple Opinion Triplet Extraction is divided into three subtasks:
+
+- Extracting aspect and opinion terms
+- Classifying positive pairs between aspects and opinions
+- Predicting sentiment
+
+The accompanying images illustrate the model architectures utilized for these subtasks
+
+**Aspect And Opinion Term Extraction Model (NER)**
+
+![Image 1](images/image1.png)
+
+**Aspect Opinion Pair Classification Model**
+
+![Image 2](images/image2.png)
+
+**Sentiment Classification Model**
+
+![Image 3](images/image3.png)
