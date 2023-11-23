@@ -81,12 +81,12 @@ The accompanying images illustrate the model architectures utilized for these su
 
 ## Results
 
-- **Aspect And Opinion Term Extraction Model (NER)**
+**Aspect And Opinion Term Extraction Model (NER)**
 
 | accuracy | 0.70 |
 | -------- | ---- |
 
-- **Aspect Opinion Pair Classification Model**
+**Aspect Opinion Pair Classification Model**
 
 |              | precision | recall | f1-score |
 | ------------ | --------- | ------ | -------- |
@@ -94,7 +94,7 @@ The accompanying images illustrate the model architectures utilized for these su
 | 1            | 0.95      | 0.90   | 0.92     |
 | **accuracy** |           |        | **0.92** |
 
-- **Sentiment Classification Model**
+**Sentiment Classification Model**
 
 |              | precision | recall | f1-score |
 | ------------ | --------- | ------ | -------- |
