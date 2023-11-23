@@ -14,7 +14,7 @@ Some challenges I faced included **extracting multi-word aspects and opinions**.
 
 Features I hope to implement in the future:
 
-- **Implement an attention-based model or transformer model for aspect opinion extraction to improve accuracy over named entity recognition (NER)**
+- **Implement an attention-based or transformer model for aspect opinion extraction to improve accuracy over named entity recognition (NER)**
 - **Manually augment sentences with negation and modifiers to handle negation and modifiers and increase accuracy over them.**
 
 ## Prerequisites
